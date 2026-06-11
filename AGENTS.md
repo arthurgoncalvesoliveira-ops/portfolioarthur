@@ -43,3 +43,4 @@ src/
 │   └── utils.ts         # Helper `cn` para fusão de classes Tailwind
 └── types/
     └── index.ts         # Interfaces e Tipos TypeScript
+    
