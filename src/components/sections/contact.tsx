@@ -8,8 +8,8 @@ export function Contact() {
     <Section
       id="contato"
       eyebrow="contato"
-      title="Vamos trabalhar juntos?"
-      description="Estou aberto a oportunidades, projetos e boas conversas sobre tecnologia."
+      title="Vamos conversar?"
+      description="Estou aberto a oportunidades, projetos e conversas sobre tecnologia."
     >
       <Reveal>
         <a

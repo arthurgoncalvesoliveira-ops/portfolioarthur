@@ -1,5 +1,6 @@
 import type {
   Education,
+  Experience,
   NavItem,
   Project,
   SkillGroup,
@@ -18,7 +19,7 @@ export const siteConfig = {
   subheadline:
     "Desenvolvedor no Colégio Farroupilha e estudante de Ciência da Computação na Unisinos. Especializado em React, Next.js e TypeScript.",
   about: [
-    "Tenho 19 anos e sou estudante de Ciência da Computação na Unisinos. Atualmente trabalho no setor de TI do Colégio Farroupilha como desenvolvedor, criando softwares e sites educacionais usados diariamente por alunos, professores e equipe administrativa.",
+    "Tenho 19 anos e sou estudante de Ciência da Computação na Unisinos. Atualmente trabalho no setor de TI do Colégio Farroupilha como desenvolvedor, criando softwares e sites educacionais e administrativos usados diariamente por alunos, professores e equipe administrativa.",
     "Sou proativo, aprendo rápido e gosto de trabalhar em equipe. Meu objetivo é crescer profissionalmente aplicando minhas habilidades em projetos reais e aprendendo algo novo todos os dias.",
   ],
 };
@@ -65,6 +66,14 @@ export const socialLinks: SocialLink[] = [
 ];
 
 export const projects: Project[] = [
+  {
+    title: "Sistema de Checklist",
+    description:
+      "Plataforma para criação, acompanhamento e auditoria de checklists de processos escolares internos, otimizando fluxos de trabalho e a colaboração entre as equipes.",
+    image: "/checklist print.png",
+    url: "",
+    tags: ["next.js", "typescript", "tailwind-css"],
+  },
   {
     title: "Agendamento de Laboratórios",
     description:
@@ -133,4 +142,18 @@ export const skillGroups: SkillGroup[] = [
     label: "idiomas",
     skills: ["Português", "Inglês", "Espanhol"],
   },
+];
+
+export const experiences: Experience[] = [
+  {
+    role: "Desenvolvedor de Software",
+    company: "Colégio Farroupilha",
+    current: true,
+    tasks: [
+      "Desenvolvimento de aplicações web e sistemas internos com React, Next.js e TypeScript.",
+      "Criação e manutenção de plataformas educacionais integradas a APIs do ecossistema Google (como Google Calendar e OAuth).",
+      "Modelagem e otimização de fluxos de processos administrativos e ferramentas pedagógicas usadas por milhares de usuários (alunos, professores e administração).",
+      "Colaboração no mapeamento de demandas e na definição de soluções tecnológicas para o setor de Tecnologia Educacional."
+    ]
+  }
 ];

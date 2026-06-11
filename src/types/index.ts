@@ -32,3 +32,10 @@ export interface TerminalLine {
   type: "cmd" | "out";
   text: string;
 }
+
+export interface Experience {
+  role: string;
+  company: string;
+  current: boolean;
+  tasks: string[];
+}
